@@ -1,0 +1,9 @@
+.globalFilter {
+    font-size: 2vw;
+    color: beige;
+}
+
+.globalFilter input {
+    margin-left: 2vw;
+    font-size: 2vw;
+}

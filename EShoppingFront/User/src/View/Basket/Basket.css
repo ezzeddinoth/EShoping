@@ -1,0 +1,10 @@
+.basket {
+    margin-top: 3vh;
+    width: 100%;
+}
+
+.basket .sum {
+    margin: 3vh;
+    font-size: 2vw;
+    text-align: center;
+}

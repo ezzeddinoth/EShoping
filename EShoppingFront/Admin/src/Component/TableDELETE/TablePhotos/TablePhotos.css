@@ -1,0 +1,7 @@
+.photoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    margin: auto;
+    width: 85%;
+}

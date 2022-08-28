@@ -1,0 +1,11 @@
+.PAGE3 {
+    font-size: 10vw;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.PAGE3 .back {
+    position: absolute;
+    top: 550px;
+    left: 20px;
+}

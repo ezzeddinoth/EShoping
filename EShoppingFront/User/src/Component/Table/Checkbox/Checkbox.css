@@ -1,0 +1,59 @@
+.checkbox {
+    margin: auto;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+.checkboxContainer {
+    width: 45px;
+    height: 15px;
+    background: rgb(76, 83, 86);
+    margin: 20px 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.checkboxContainerGreen {
+    width: 45px;
+    height: 15px;
+    background: rgb(100, 168, 68);
+    margin: 20px 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.checkboxContainer label {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    background: #ccc;
+}
+
+.checkboxContainer input[type=checkbox]:checked+label {
+    left: 27px;
+}
+
+.checkboxContainerGreen label {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    background: #ccc;
+}
+
+.checkboxContainerGreen input[type=checkbox]:checked+label {
+    left: 27px;
+}

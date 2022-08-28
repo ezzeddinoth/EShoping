@@ -1,0 +1,17 @@
+.partNumberScanKTE {
+    font-size: 10vw;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.partNumberScanKTE .schrott {
+    position: absolute;
+    top: 550px;
+    left: 20px;
+}
+
+.partNumberScanKTE .next {
+    position: absolute;
+    top: 550px;
+    right: 20px;
+}

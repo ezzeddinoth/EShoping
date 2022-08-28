@@ -1,0 +1,40 @@
+.foot {
+    background-color: rgb(172, 155, 155);
+    color: beige;
+    text-align: center;
+}
+
+.foot .list {
+    min-height: 0em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.foot .list .item {
+    font-size: 1em;
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    
+    list-style-type: none;
+    text-decoration: none;
+    color: beige;
+    display: block;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+
+.foot .list .item .link {
+    margin: auto 1vw;
+    border-bottom: 1px solid #ccc;
+}
+
+.foot .list .item:hover {
+    font-size: 1.5em;
+    background: #f6f6f6;
+    color: black;
+}

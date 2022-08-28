@@ -1,0 +1,35 @@
+.header {
+    height: 10vh;
+    background-color: rgb(43, 27, 27);
+    color: beige;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.header .containerlogin {
+    margin: 0 1vw;
+    float: right;
+}
+
+.header .containerlogin .btn_login {
+    background-color: brown;
+    height: 3vh;
+    width: 6vw;
+    font-size: 1vw;
+    border-radius: 1vh;
+}
+
+
+.header .containerBack {
+    margin: 0 1vw;
+    float: left;
+}
+
+.header .containerBack .btn_Back {
+    background-color: brown;
+    height: 3vh;
+    width: 6vw;
+    font-size: 1vw;
+    border-radius: 1vh;
+}

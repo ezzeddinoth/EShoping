@@ -1,0 +1,121 @@
+.head {
+    background-color: rgb(172, 155, 155);
+    color: beige;
+    text-align: center;
+}
+
+.head .title {
+    font-size: 2em;
+}
+
+/*
+.header {
+    background-color: rgb(43, 27, 27);
+    color: beige;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.header .containerlogin {
+    margin: 0 1vw;
+    float: right;
+}
+
+.header .containerlogin .btn_login {
+    background-color: brown;
+    height: 3vh;
+    width: 6vw;
+    font-size: 1vw;
+    border-radius: 1vh;
+    White-space: nowrap;
+}
+
+.header .containerBack {
+    margin: 0 1vw;
+    float: left;
+}
+
+.header .containerBack .btn_Back {
+    background-color: brown;
+    height: 3vh;
+    width: 6vw;
+    font-size: 1vw;
+    border-radius: 1vh;
+}
+
+.header .headerList .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+}
+
+.header .headerList .list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header .headerList .list li {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+    list-style-type: none;
+}
+
+/*.header .headerList .list li:last-child {
+
+}*/
+/*
+.header .headerList .list li {
+    text-decoration: none;
+    color: beige;
+    display: block;
+    width: 200px;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.header .headerList .list li:hover {
+    font-size: 30px;
+    background: #f6f6f6;
+    color: black;
+}
+*/
+
+.head .list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.head .list .item {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+    list-style-type: none;
+}
+
+
+.head .list .item {
+    text-decoration: none;
+    color: beige;
+    display: block;
+ 
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.head .list .item:hover {
+    font-size: 30px;
+    background: #f6f6f6;
+    color: black;
+}

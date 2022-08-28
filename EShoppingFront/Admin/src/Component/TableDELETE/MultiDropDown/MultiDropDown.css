@@ -1,0 +1,38 @@
+.multiDropDown select {
+    margin: 0 3%;
+    margin-top: 0;
+    border-radius: 10px;
+    width: 80%;
+    min-height: 30px;
+    font-size: 80%;
+}
+
+.multiDropDown .required {
+    background-color: rgb(241, 241, 127);
+    border: 3px solid rgb(241, 241, 127);
+}
+
+.multiDropDown option {
+
+    background-color: white;
+    border: 3px solid white;
+}
+
+.multiDropDown .selected {
+    font-weight: bolder;
+    background-color: rgb(0, 70, 102);
+    color: white;
+}
+
+.multiDropDown .hiddenInput {
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    margin-bottom: 7%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    font-size:  0;
+}

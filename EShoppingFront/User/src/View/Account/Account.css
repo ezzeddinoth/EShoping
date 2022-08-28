@@ -1,0 +1,83 @@
+.my-account {
+    width: 100%;
+}
+
+.my-account .accountform {
+    width: 50%;
+    margin: auto;
+}
+
+.my-account .signup {
+    width: 90%;
+    margin: 8px auto;
+}
+
+.my-account .accountform input[type=text], .my-account .accountform input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 1vh;
+    font-size: 1.2vw;
+}
+
+.my-account .accountform label {
+    font-size: 2vw;
+}
+
+.my-account .accountform .update {
+    float: right;
+    width: 45%;
+    background-color: brown;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 1vh;
+    font-size: 1.2vw;
+}
+
+.my-account .loginform .update:hover {
+    background-color: brown;
+}
+
+.my-account .logout {
+    width: 25%;
+    margin: 1vw;
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 1vh;
+    font-size: 1.2vw;
+}
+
+.my-account .logout:hover {
+    background-color: gray;
+}
+
+
+.my-account .orders {
+    float: right;
+    width: 25%;
+    margin: 1vw;
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 1vh;
+    font-size: 1.2vw;
+}
+
+.my-account .orders:hover {
+    background-color: gray;
+}

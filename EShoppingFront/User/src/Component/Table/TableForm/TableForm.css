@@ -1,0 +1,106 @@
+.transparentBlock {
+    display: block;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.tableForm {
+    display: block;
+    position: fixed;
+    left: 20%;
+    top: 25%;
+    width: 62%;
+    height: 60%;
+    border: 3px solid rgb(76, 83, 86);
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgb(223, 226, 230);
+    overflow: hidden;
+}
+
+.tableForm .content {
+    height: 86%;
+    overflow: auto;
+}
+
+.tableForm .values {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+}
+
+.tableForm .content input {
+    margin: 3%;
+    margin-top: 0;
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    font-size: 80%;
+}
+
+.tableForm input:required {
+    background-color: rgb(241, 241, 127);
+}
+
+.tableForm .content label {
+    margin: 3%;
+    margin-bottom: 0;
+}
+
+.tableForm .head {
+    color: white;
+    width: 99%;
+    margin: auto;
+    border-bottom: 2px solid gray;
+    text-align: left;
+    background-color: brown;
+    border: solid rgb(240, 241, 242);
+    border-radius: 10px;
+    height: 10%;
+}
+
+.tableForm .head .titleText {
+    margin: 2px;
+    font-weight: bolder;
+    vertical-align: middle;
+    font-size: 2vw;
+}
+
+.tableForm .content .save {
+    font-size: 1vw;
+    float: right;
+    margin: 3vh 6vw;
+    color: beige;
+    border-radius: 10px;
+    width: 8vw;
+    height: 5vh;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.tableForm .content .save:disabled {
+    background: #fff;
+    color: #ccc;
+    cursor: no-drop;
+}
+
+.tableForm .content .cancel {
+    font-size: 1vw;
+    float: left;
+    margin: 3vh 6vw;
+    color: beige;
+    border-radius: 10px;
+    width: 8vw;
+    height: 5vh;
+    background-color: gray;
+    cursor: pointer;
+}
